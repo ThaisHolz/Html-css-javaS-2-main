@@ -1,12 +1,14 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     background-image: linear-gradient(to right, #E8E1D2, #B29462);
-    font-family: Arial;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 main{
@@ -21,6 +23,8 @@ main{
 h1{
     color: #AC3931;
     text-shadow: 1px 1px 0px #551b18bf;
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-align: center;
 }
 
 h2{
@@ -30,3 +34,11 @@ h2{
 p{
     text-align: justify;
 }
+
+/* colors
+#091E05
+#004F2D
+#AC3931
+
+Ordem shorthand font
+- font-style font-weight font-size font-family
