@@ -40,11 +40,19 @@ h1{
 
 h2{
     color:#B29462;
+    font-family: Arial, sans-serif;
+    display: inline;
+}
+
+h2 span
+{
+    color:#B29462;
     font-family: 'Gatinhos Silhueta', Arial, sans-serif;
 }
 
 p{
     text-align: justify;
+    text-indent: 30px;
 }
 
 /* colors
