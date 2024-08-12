@@ -26,12 +26,14 @@ body{
 nav{
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #004F2D;}
+    background-color: #004F2D;
+    border-radius: 10px;}
 
 nav > a{
     text-decoration: none;
     font-weight: bold;
-    color: #E8E1D2;}
+    color: #E8E1D2;
+    margin-right: 10px;}
 
 nav > a:hover{
     text-decoration: underline;}
@@ -48,6 +50,8 @@ h1{
     color: #AC3931;
     text-shadow: 1px 1px 0px #551b18bf;
     font-family: 'Bigodes', cursive;
+    font-size: 50px;
+    text-shadow: rgba(0, 0, 0, 0.518);
     text-align: center;}
 
 h2{
