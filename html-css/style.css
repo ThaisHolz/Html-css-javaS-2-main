@@ -17,8 +17,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root{
+    --cor0: #091E05;
+    --cor1: #004F2D;
+    --cor2: #AC3931;
+    --cor3: #E8E1D2;
+    --cor4: #B29462;}
+
 body{
-    background-image: linear-gradient(to right, #E8E1D2, #B29462);
+    background-image: linear-gradient(to right, var(--cor3), var(--cor4));
     font-size: 16px;
     margin: 20px;
     padding: 10px;}
@@ -52,7 +59,8 @@ h1{
     font-family: 'Bigodes', cursive;
     font-size: 50px;
     text-shadow: rgba(0, 0, 0, 0.518);
-    text-align: center;}
+    text-align: center;
+    margin:  5px;}
 
 h2{
     color:#B29462;
@@ -84,10 +92,5 @@ footer > p{
     text-align: center;
     margin: 0px;}
 
-/* colors
-#091E05
-#004F2D
-#AC3931
-
-Ordem shorthand font
+/*Ordem shorthand font
 - font-style font-weight font-size font-family
