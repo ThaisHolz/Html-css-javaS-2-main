@@ -41,7 +41,7 @@ nav{
 nav > a{
     text-decoration: none;
     font-weight: bold;
-    color: #E8E1D2;
+    color: rgb(232, 225, 210);
     margin-right: 10px;}
 
 nav > a:hover{
@@ -55,6 +55,10 @@ main{
     min-width: 320px;
     padding: 10px;
     margin: 30px auto;}
+
+main img{
+    width: 100%;
+}
 
 h1{
     color: #AC3931;
@@ -83,8 +87,10 @@ p{
 
 nav > video{
     margin: 20px;
-    width: 500px; 
-    height:300px;}
+    max-width: 600px;
+    min-width: 200px; 
+    max-height:300px;
+    min-height: 100px;}
 
 aside > a{
     padding: 10px;
