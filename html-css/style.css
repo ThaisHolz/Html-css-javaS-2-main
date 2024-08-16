@@ -65,7 +65,6 @@ h1{
     text-shadow: 1px 1px 0px #551b18bf;
     font-family: 'Bigodes', cursive;
     font-size: 50px;
-    text-shadow: rgba(0, 0, 0, 0.518);
     text-align: center;
     margin:  5px;}
 
@@ -73,6 +72,7 @@ h2{
     color:#B29462;
     margin: 10px;
     font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 0px #816d4657;
     display: inline;}
 
 h2 span{
@@ -85,17 +85,29 @@ p{
     text-align: justify;
     text-indent: 30px;}
 
-nav > video{
-    margin: 20px;
-    max-width: 600px;
-    min-width: 200px; 
-    max-height:300px;
-    min-height: 100px;}
+div.flex-video{
+   background-color: #004F2D;
+   border-radius: 10px;
+   margin: auto;
+   padding: 20px;
+}
+div.flex-video > figure{
+    width: 90%; 
+    min-width: 320px; 
+    margin:0 auto;
+}
+div.flex-video > figure> video{
+    width: 100%;
+    height: auto;
+}
 
-aside > a{
+aside > p> a{
     padding: 10px;
     text-decoration: none;
     color: black;}
+aside > p> a:hover{
+    text-decoration: underline;
+}
 
 footer{
     font-family: Arial, sans-serif;
