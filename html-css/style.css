@@ -52,7 +52,7 @@ main{
     border-radius: 20px;
     box-shadow: 10px 10px 10px #9d7f4aa0;
     max-width: 800px;
-    min-width: 320px;
+    min-width: 300px;
     padding: 10px;
     margin: 30px auto;}
 
@@ -93,7 +93,7 @@ div.flex-video{
 }
 div.flex-video > figure{
     width: 90%; 
-    min-width: 320px; 
+    min-width: 100%; 
     margin:0 auto;
 }
 div.flex-video > figure> video{
