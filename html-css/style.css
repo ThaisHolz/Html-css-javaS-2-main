@@ -92,7 +92,7 @@ div.flex-video{
    padding: 20px;
 }
 div.flex-video > figure{
-    width: 90%; 
+    width: 100%; 
     min-width: 100%; 
     margin:0 auto;
 }
