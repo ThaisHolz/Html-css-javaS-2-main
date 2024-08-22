@@ -122,5 +122,15 @@ footer > p{
     text-align: center;
     margin: 0px;}
 
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid #004F2D;
+    padding: 8px;
+}
+
 /*Ordem shorthand font
 - font-style font-weight font-size font-family
