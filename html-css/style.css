@@ -125,11 +125,13 @@ footer > p{
 table{
     width: 500px;
     border-collapse: collapse;
+    margin: 10px;
 }
 
 td{
     border: 1px solid #004F2D;
     padding: 8px;
+    text-align: center;
 }
 
 /*Ordem shorthand font
