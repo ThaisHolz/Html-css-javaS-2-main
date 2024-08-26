@@ -100,6 +100,7 @@ div.flex-video > figure{
 div.flex-video > figure> video{
     max-width: 100%;
     height: auto;
+    position: relative;
 }
 
 aside > p> a{
