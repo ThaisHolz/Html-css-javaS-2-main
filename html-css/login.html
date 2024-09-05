@@ -9,21 +9,21 @@
 </head>
 <body>
     <header>
-        <h1>&lt; Fale conosco! &gt;</h1>
+        <h1>&lt; Seu Login &gt;</h1>
     </header>
     <main>
         <form action="cadastro.php" method="post">
-            <p><label for="inome">Nome:</label> 
-                <input type="text" name="nome" id="inome">
+            <p>
+                <label for="iusu">Usuário:</label>
+                <input type="text" name="usu" id="iusu" required minlength="5" maxlength="10" placeholder="email">
             </p>
-            <p><label for="isobrenome">Sobrenome:</label> 
-                <input type="text" name="sobrenome" id="isobrenome">
-            </p>
-            <p><label for="iemail">Email:</label>
-                <input type="text" name="email" id="iemail">
+            <p>
+                <label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" required minlength="8" placeholder="senha">
             </p>
             <p>
                 <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
             </p>
         </form>
     </main>
