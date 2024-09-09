@@ -39,14 +39,20 @@
             </p>
             <p>
                 <label for="iassunto">Assunto:</label>
-                <input type="text" name="assunto" id="iassunto" required>
+                <select name="assunto" id="iassunto">
+                    <option value="">---Escolha---</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="orcamento">Orçamento</option>
+                </select>
             </p>
             <p>
                 <label for="icomen">Comentário:</label>
-                <textarea name="comen" id="icomen" rows="4" maxlength="200"></textarea>
+                <textarea name="comen" id="icomen" cols="30" rows="4" maxlength="200"></textarea>
             </p>
             <p>
                 <input type="submit" value="Enviar">
+                <input type="submit" value="Limpar">
             </p>
         </form>
     </main>
