@@ -135,5 +135,9 @@ td{
     text-align: center;
 }
 
+form > p{
+    text-align: center;
+}
+
 /*Ordem shorthand font
 - font-style font-weight font-size font-family
