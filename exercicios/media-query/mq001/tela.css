@@ -11,6 +11,15 @@ html{
     font-size: 1em;
 }
 
+header{
+    background-color: rgb(127, 159, 159);
+    width: 100%;
+}
+
+header > h1{
+    text-align: center;
+}
+
 menu ul{
     list-style-type: none;
 }
@@ -21,16 +30,13 @@ menu li{
     background-color: rgb(65, 85, 85);
 }
 
-header{
-    background-color: rgb(127, 159, 159);
-}
-
-header > h1{
-    text-align: center;
+h2{
+    padding: 10px;
 }
 
 article{
     width: 500px;
     display: block;
     margin: auto;
+    padding-top: 10px;
 }
