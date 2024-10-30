@@ -17,6 +17,11 @@ html, body{
 
 header > h1{
     text-align: center;
+    padding-top: 10px;
+}
+
+main > h1{
+    padding: 10px;
 }
 
 article{
