@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*TODAS AS DEMAIS MIDIAS*/
+
+/*IMPRESSÃO*/
+@media print{
+    * { font-family: 'Courier New', Courier, monospace;}
+    
+    span#burguer {display: none;}
+
+    main {border: 2px solid black;}
+
+    main h2{
+        text-shadow: none;
+        color: black;
+    }}
+
+/*TELAS GRANDES*/
+@media screen and (min-width: 768px){
+    span#burguer {display: none;}
+
+    menu {display: block;}
+
+    menu> ul> li {display: inline-block;}
+
+    main {width: 768px;}
+}
