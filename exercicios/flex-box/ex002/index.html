@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        *{ 
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        
+        /*ROW e Row-Reverse*/
+        div.container1{
+            background-color: rgb(127, 210, 255);
+            border: 1px solid black;
+            padding: 10px;
+            height: 300px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+        div.item1{
+            background-color: rgb(153, 133, 196);
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div.container2{
+            background-color: rgb(127, 210, 255);
+            border: 1px solid black;
+            padding: 10px;
+            height: 300px;
+            display: flex;
+            flex-flow: row-reverse nowrap;
+            justify-content: center;
+            align-items: center;
+        }
+        div.item2{
+            background-color: rgb(153, 133, 196);
+            border: 1px solid black;
+            text-align: center;
+        }
+        /*Colum e Colum-Reverse*/
+        div.container3{
+            background-color: rgb(127, 210, 255);
+            border: 1px solid black;
+            padding: 10px;
+            height: 300px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+        }
+        div.item3{
+            background-color: rgb(153, 133, 196);
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div.container4{
+            background-color:rgb(127, 210, 255);
+            border: 1px solid black;
+            padding: 10px;
+            height: 300px;
+            display: flex;
+            flex-flow: column-reverse nowrap;
+            justify-content: flex-start;
+        }
+        div.item4{
+            background-color: rgb(153, 133, 196);
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Direções Row e Row-Reverse</h1>
+        <div class="container1">
+            <div class="item1">Exemplo item A</div>
+            <div class="item1">Exemplo item B</div>
+            <div class="item1">Exemplo item C</div>
+            <div class="item1">Exemplo item D</div>
+            <div class="item1">Exemplo item E</div>
+            <div class="item1">Exemplo item F</div>
+            <div class="item1">Exemplo item G</div>
+        </div>
+        <p>Start -------------------------- > End</p>
+        <div class="container2">
+            <div class="item2">Exemplo item A</div>
+            <div class="item2">Exemplo item B</div>
+            <div class="item2">Exemplo item C</div>
+            <div class="item2">Exemplo item D</div>
+            <div class="item2">Exemplo item E</div>
+            <div class="item2">Exemplo item F</div>
+            <div class="item2">Exemplo item G</div>
+        </div>
+        <p>Start < -------------------------- End</p>
+    <h1>Direções Colum</h1>
+        <div class="container3">
+            <div class="item3">A</div>
+            <div class="item3">B</div>
+            <div class="item3">C</div>
+            <div class="item3">D</div>
+            <div class="item3">E</div>
+            <div class="item3">F</div>
+            <div class="item3">G</div>
+        </div>
+        <p>Start <br>|<br>v <br> End</p>
+        <div class="container4">
+            <div class="item4">A</div>
+            <div class="item4">B</div>
+            <div class="item4">C</div>
+            <div class="item4">D</div>
+            <div class="item4">E</div>
+            <div class="item4">F</div>
+            <div class="item4">G</div>
+        </div>
+        <p>Start <br>^<br>|<br> End</p>       
+</body>
+</html>
