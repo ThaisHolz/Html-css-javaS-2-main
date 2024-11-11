@@ -17,15 +17,21 @@
             padding: 10px;
             height: 300px;
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row nowrap;
             justify-content: space-around;
             align-items: flex-start;
             align-content: space-around; /*só para wrap*/
         }
         div.item1{
-            background-color: rgb(153, 133, 196);
+            padding: 20px;
+            background-color: rgb(182, 211, 108);
             border: 1px solid black;
             text-align: center;
+            /*order: ;*/
+            align-self: center;
+            flex-basis: 100px; /*Utilizar no lugar de largura e altura*/
+            /*flex-grow: 0; Para ficar super fluido deixar 1 nos 2
+            flex-shrink: 1; Esses são os padrões*/
         }
 
         div.container2{
@@ -77,14 +83,15 @@
 </head>
 <body>
     <h1>Direções Row e Row-Reverse</h1>
+    /*Utilizando propriedades de flex-itens*/ 
         <div class="container1">
-            <div class="item1">Exemplo item A</div>
-            <div class="item1">Exemplo item B</div>
-            <div class="item1">Exemplo item C</div>
-            <div class="item1">Exemplo item D</div>
-            <div class="item1">Exemplo item E</div>
-            <div class="item1">Exemplo item F</div>
-            <div class="item1">Exemplo item G</div>
+            <div class="item1">A</div>
+            <div class="item1">B</div>
+            <div class="item1">C</div>
+            <div class="item1">D</div>
+            <div class="item1" style="order: -3">E</div>
+            <div class="item1">F</div>
+            <div class="item1">G</div>
         </div>
         <p>Start -------------------------- > End</p>
         <div class="container2">
