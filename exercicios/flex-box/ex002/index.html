@@ -82,7 +82,19 @@
     </style>
 </head>
 <body>
-    <h1>Direções Row e Row-Reverse</h1>
+    <p>Simplificação do FLEX: flex-basis + flex-grow + flex-shrink</p>
+    <p>Se eu tiver FB: 150px + FG: 0 + FS: 1</p>
+    <p>Posso usar apenas o comando flex: 0 1 150px</p>
+    <p>(Sempre nessa ordem: Grow, Shrink e basis)</p>
+    <p>------------------------------------------------------------</p>
+    <p>Outras formas:</p>
+    <p>flex=FG + FS + FB</p>
+    <p>flex: 0 1 auto ----> flex: initial (padrão)</p>
+    <p>flex: 0 0 auto ----> flex: none (não flexiveis)</p>
+    <p>flex: 1 1 auto ----> flex: auto (100% flexiveis)</p>
+    <p>flex: 3 ----> flex: 3 1 auto (Apenas o Grow tem valor e resto é padrão)</p>
+
+    <br><h1>Direções Row e Row-Reverse</h1>
     /*Utilizando propriedades de flex-itens*/ 
         <div class="container1">
             <div class="item1">A</div>
