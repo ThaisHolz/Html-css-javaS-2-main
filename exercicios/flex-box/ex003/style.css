@@ -25,7 +25,10 @@ header{
     align-items: center;
 }
 
-header> h1 {flex: 0 0 200px;}
+header> h1 {
+    flex: 0 0 200px;
+    text-shadow: 2px 2px 0px #453b34ad;
+}
 
 header> nav {
     display: flex;
@@ -36,6 +39,7 @@ header> nav {
 header> nav> a{
     background-color: #F4EDED;
     color: #331832;
+    box-shadow: 2px 2px 1px #453b34ad;
     text-decoration: none;
     text-align: center;
     padding: 10px;
@@ -51,8 +55,11 @@ header> nav> a:hover{
 
 main{
     background-color: rgb(255, 255, 255);
-    margin: 10px;
+    margin: auto;
+    margin-top: 10px;
     padding: 10px;
+    width: 80vw;
+    position: relative;
     border-radius: 10px;
     box-shadow: 2px 2px 3px #877666c8;
 }
